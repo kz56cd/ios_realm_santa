@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA54B98A1E19CB0E003479E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B9891E19CB0E003479E9 /* AppDelegate.swift */; };
+		EA54B98C1E19CB0E003479E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B98B1E19CB0E003479E9 /* ViewController.swift */; };
+		EA54B98F1E19CB0E003479E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA54B98D1E19CB0E003479E9 /* Main.storyboard */; };
+		EA54B9911E19CB0E003479E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA54B9901E19CB0E003479E9 /* Assets.xcassets */; };
+		EA54B9941E19CB0E003479E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA54B9921E19CB0E003479E9 /* LaunchScreen.storyboard */; };
+		EA54B99F1E19CB0E003479E9 /* Santa_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B99E1E19CB0E003479E9 /* Santa_TrackerTests.swift */; };
+		EA54B9AA1E19CB0E003479E9 /* Santa_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B9A91E19CB0E003479E9 /* Santa_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA54B99B1E19CB0E003479E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA54B97E1E19CB0E003479E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA54B9851E19CB0E003479E9;
+			remoteInfo = "Santa Tracker";
+		};
+		EA54B9A61E19CB0E003479E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA54B97E1E19CB0E003479E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA54B9851E19CB0E003479E9;
+			remoteInfo = "Santa Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA54B9861E19CB0E003479E9 /* Santa Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA54B9891E19CB0E003479E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA54B98B1E19CB0E003479E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA54B98E1E19CB0E003479E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA54B9901E19CB0E003479E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA54B9931E19CB0E003479E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA54B9951E19CB0E003479E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA54B99A1E19CB0E003479E9 /* Santa TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA54B99E1E19CB0E003479E9 /* Santa_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Santa_TrackerTests.swift; sourceTree = "<group>"; };
+		EA54B9A01E19CB0E003479E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA54B9A51E19CB0E003479E9 /* Santa TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA54B9A91E19CB0E003479E9 /* Santa_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Santa_TrackerUITests.swift; sourceTree = "<group>"; };
+		EA54B9AB1E19CB0E003479E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA54B9831E19CB0E003479E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9971E19CB0E003479E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9A21E19CB0E003479E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA54B97D1E19CB0E003479E9 = {
+			isa = PBXGroup;
+			children = (
+				EA54B9881E19CB0E003479E9 /* Santa Tracker */,
+				EA54B99D1E19CB0E003479E9 /* Santa TrackerTests */,
+				EA54B9A81E19CB0E003479E9 /* Santa TrackerUITests */,
+				EA54B9871E19CB0E003479E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA54B9871E19CB0E003479E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA54B9861E19CB0E003479E9 /* Santa Tracker.app */,
+				EA54B99A1E19CB0E003479E9 /* Santa TrackerTests.xctest */,
+				EA54B9A51E19CB0E003479E9 /* Santa TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA54B9881E19CB0E003479E9 /* Santa Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				EA54B9891E19CB0E003479E9 /* AppDelegate.swift */,
+				EA54B98B1E19CB0E003479E9 /* ViewController.swift */,
+				EA54B98D1E19CB0E003479E9 /* Main.storyboard */,
+				EA54B9901E19CB0E003479E9 /* Assets.xcassets */,
+				EA54B9921E19CB0E003479E9 /* LaunchScreen.storyboard */,
+				EA54B9951E19CB0E003479E9 /* Info.plist */,
+			);
+			path = "Santa Tracker";
+			sourceTree = "<group>";
+		};
+		EA54B99D1E19CB0E003479E9 /* Santa TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA54B99E1E19CB0E003479E9 /* Santa_TrackerTests.swift */,
+				EA54B9A01E19CB0E003479E9 /* Info.plist */,
+			);
+			path = "Santa TrackerTests";
+			sourceTree = "<group>";
+		};
+		EA54B9A81E19CB0E003479E9 /* Santa TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA54B9A91E19CB0E003479E9 /* Santa_TrackerUITests.swift */,
+				EA54B9AB1E19CB0E003479E9 /* Info.plist */,
+			);
+			path = "Santa TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA54B9851E19CB0E003479E9 /* Santa Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA54B9AE1E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa Tracker" */;
+			buildPhases = (
+				EA54B9821E19CB0E003479E9 /* Sources */,
+				EA54B9831E19CB0E003479E9 /* Frameworks */,
+				EA54B9841E19CB0E003479E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Santa Tracker";
+			productName = "Santa Tracker";
+			productReference = EA54B9861E19CB0E003479E9 /* Santa Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA54B9991E19CB0E003479E9 /* Santa TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA54B9B11E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa TrackerTests" */;
+			buildPhases = (
+				EA54B9961E19CB0E003479E9 /* Sources */,
+				EA54B9971E19CB0E003479E9 /* Frameworks */,
+				EA54B9981E19CB0E003479E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA54B99C1E19CB0E003479E9 /* PBXTargetDependency */,
+			);
+			name = "Santa TrackerTests";
+			productName = "Santa TrackerTests";
+			productReference = EA54B99A1E19CB0E003479E9 /* Santa TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA54B9A41E19CB0E003479E9 /* Santa TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA54B9B41E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa TrackerUITests" */;
+			buildPhases = (
+				EA54B9A11E19CB0E003479E9 /* Sources */,
+				EA54B9A21E19CB0E003479E9 /* Frameworks */,
+				EA54B9A31E19CB0E003479E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA54B9A71E19CB0E003479E9 /* PBXTargetDependency */,
+			);
+			name = "Santa TrackerUITests";
+			productName = "Santa TrackerUITests";
+			productReference = EA54B9A51E19CB0E003479E9 /* Santa TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA54B97E1E19CB0E003479E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "佐野正和";
+				TargetAttributes = {
+					EA54B9851E19CB0E003479E9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZMTZ3U33V;
+						ProvisioningStyle = Automatic;
+					};
+					EA54B9991E19CB0E003479E9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZMTZ3U33V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA54B9851E19CB0E003479E9;
+					};
+					EA54B9A41E19CB0E003479E9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ZMTZ3U33V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA54B9851E19CB0E003479E9;
+					};
+				};
+			};
+			buildConfigurationList = EA54B9811E19CB0E003479E9 /* Build configuration list for PBXProject "Santa Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA54B97D1E19CB0E003479E9;
+			productRefGroup = EA54B9871E19CB0E003479E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA54B9851E19CB0E003479E9 /* Santa Tracker */,
+				EA54B9991E19CB0E003479E9 /* Santa TrackerTests */,
+				EA54B9A41E19CB0E003479E9 /* Santa TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA54B9841E19CB0E003479E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA54B9941E19CB0E003479E9 /* LaunchScreen.storyboard in Resources */,
+				EA54B9911E19CB0E003479E9 /* Assets.xcassets in Resources */,
+				EA54B98F1E19CB0E003479E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9981E19CB0E003479E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9A31E19CB0E003479E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA54B9821E19CB0E003479E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA54B98C1E19CB0E003479E9 /* ViewController.swift in Sources */,
+				EA54B98A1E19CB0E003479E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9961E19CB0E003479E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA54B99F1E19CB0E003479E9 /* Santa_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA54B9A11E19CB0E003479E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA54B9AA1E19CB0E003479E9 /* Santa_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA54B99C1E19CB0E003479E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA54B9851E19CB0E003479E9 /* Santa Tracker */;
+			targetProxy = EA54B99B1E19CB0E003479E9 /* PBXContainerItemProxy */;
+		};
+		EA54B9A71E19CB0E003479E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA54B9851E19CB0E003479E9 /* Santa Tracker */;
+			targetProxy = EA54B9A61E19CB0E003479E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA54B98D1E19CB0E003479E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA54B98E1E19CB0E003479E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA54B9921E19CB0E003479E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA54B9931E19CB0E003479E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA54B9AC1E19CB0E003479E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA54B9AD1E19CB0E003479E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA54B9AF1E19CB0E003479E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA54B9B01E19CB0E003479E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA54B9B21E19CB0E003479E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa Tracker.app/Santa Tracker";
+			};
+			name = Debug;
+		};
+		EA54B9B31E19CB0E003479E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Santa Tracker.app/Santa Tracker";
+			};
+			name = Release;
+		};
+		EA54B9B51E19CB0E003479E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Santa Tracker";
+			};
+			name = Debug;
+		};
+		EA54B9B61E19CB0E003479E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3ZMTZ3U33V;
+				INFOPLIST_FILE = "Santa TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.kz56cd.Santa-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Santa Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA54B9811E19CB0E003479E9 /* Build configuration list for PBXProject "Santa Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA54B9AC1E19CB0E003479E9 /* Debug */,
+				EA54B9AD1E19CB0E003479E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA54B9AE1E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA54B9AF1E19CB0E003479E9 /* Debug */,
+				EA54B9B01E19CB0E003479E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA54B9B11E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA54B9B21E19CB0E003479E9 /* Debug */,
+				EA54B9B31E19CB0E003479E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA54B9B41E19CB0E003479E9 /* Build configuration list for PBXNativeTarget "Santa TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA54B9B51E19CB0E003479E9 /* Debug */,
+				EA54B9B61E19CB0E003479E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA54B97E1E19CB0E003479E9 /* Project object */;
+}
