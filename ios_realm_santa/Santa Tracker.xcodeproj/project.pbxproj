@@ -14,6 +14,8 @@
 		E63DE75E1E260C0600239E86 /* Santa.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DE75D1E260C0600239E86 /* Santa.swift */; };
 		E63DE7601E260C4300239E86 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DE75F1E260C4300239E86 /* Location.swift */; };
 		E63DE7621E260E9A00239E86 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DE7611E260E9A00239E86 /* MapManager.swift */; };
+		E63DE7641E262D6A00239E86 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DE7631E262D6A00239E86 /* Stop.swift */; };
+		E63DE7661E262EDD00239E86 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63DE7651E262EDD00239E86 /* Activity.swift */; };
 		EA54B98A1E19CB0E003479E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B9891E19CB0E003479E9 /* AppDelegate.swift */; };
 		EA54B98C1E19CB0E003479E9 /* SantaTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B98B1E19CB0E003479E9 /* SantaTrackerViewController.swift */; };
 		EA54B98F1E19CB0E003479E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA54B98D1E19CB0E003479E9 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		E63DE75D1E260C0600239E86 /* Santa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Santa.swift; sourceTree = "<group>"; };
 		E63DE75F1E260C4300239E86 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E63DE7611E260E9A00239E86 /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		E63DE7631E262D6A00239E86 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		E63DE7651E262EDD00239E86 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		EA54B9861E19CB0E003479E9 /* Santa Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA54B9891E19CB0E003479E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA54B98B1E19CB0E003479E9 /* SantaTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaTrackerViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 				E63DE75D1E260C0600239E86 /* Santa.swift */,
 				E63DE75F1E260C4300239E86 /* Location.swift */,
 				E63DE7611E260E9A00239E86 /* MapManager.swift */,
+				E63DE7631E262D6A00239E86 /* Stop.swift */,
+				E63DE7651E262EDD00239E86 /* Activity.swift */,
 			);
 			path = "Santa Tracker";
 			sourceTree = "<group>";
@@ -464,9 +470,11 @@
 			files = (
 				EA54B98C1E19CB0E003479E9 /* SantaTrackerViewController.swift in Sources */,
 				E63DE7621E260E9A00239E86 /* MapManager.swift in Sources */,
+				E63DE7661E262EDD00239E86 /* Activity.swift in Sources */,
 				EA54B98A1E19CB0E003479E9 /* AppDelegate.swift in Sources */,
 				E63DE7601E260C4300239E86 /* Location.swift in Sources */,
 				E63DE75E1E260C0600239E86 /* Santa.swift in Sources */,
+				E63DE7641E262D6A00239E86 /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

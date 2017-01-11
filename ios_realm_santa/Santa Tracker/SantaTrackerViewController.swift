@@ -37,7 +37,16 @@ class SantaTrackerViewController: UIViewController {
         
         // 非オプショナル型に変換
         if let santa = santas.first {
-            mapManager.update(with: santa) // 地図更新
+//            mapManager.update(with: santa) // 地図更新
+            santa.addObserver(self)
+        }
+    }
+    
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if let santa = object as? Santa {
+            update(with: santa)
+        } else {
+            super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
         }
     }
 
@@ -45,6 +54,15 @@ class SantaTrackerViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
+    private func update(with santa: Santa) {
+        mapManager.update(with: santa)
+        let activity = santa.activity.description
+        let presentsRemaining = "\(santa.presentsRemaining)"
+        DispatchQueue.main.async {
+            self.activityLabel.text = activity
+            self.presentsRemainingLabel.text = presentsRemaining
+        }
+    }
 
 }
 
