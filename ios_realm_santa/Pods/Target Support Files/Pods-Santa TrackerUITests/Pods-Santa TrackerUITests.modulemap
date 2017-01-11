@@ -1,0 +1,6 @@
+framework module Pods_Santa_TrackerUITests {
+  umbrella header "Pods-Santa TrackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
